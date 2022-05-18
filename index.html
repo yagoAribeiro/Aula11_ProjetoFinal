@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado A</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/font_awesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/logoA.png">
+    <script src="https://kit.fontawesome.com/6dfb45c3fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body onresize="screen_resize()">
+    <span id="page_top"></span>
+    <div id="menu">
+        <header id="logo">
+            <div class="figlogo">
+                <img src="./img/logoA.png">
+                <p>Supermercado<span>A</span></p>
+            </div>
+            <div class="special_item">
+                <span class="fa-solid fa-square-phone-flip fa-lg"></span>
+                <div>
+                    <a href="index.html#formulario">Fale conosco</a>
+                </div>
+            </div>
+        </header>
+        <nav class="wrapper">
+            <div class="itens">
+                <div>
+                    <a href="index.html#carnes_target">Carnes</a>
+                </div>
+                <div>
+                    <a href="index.html#margarinas_target">Margarinas</a>
+                </div>
+                <div>
+                    <a href="index.html#graos_target">Grãos</a>
+                </div>
+                <div>
+                    <a href="index.html#temperos_target">Temperos</a>
+                </div>
+                <div>
+                    <a href="index.html#doces_target">Doces</a>
+                </div>
+                <div>
+                    <a href="index.html#bebidas_target">Bebidas</a>
+                </div>
+                <div>
+                    <a href="index.html#higiene_target">Higiene e Limpeza</a>
+                </div>
+                <div>
+                    <a href="index.html#verduras_target">Verduras e Legumes</a>
+                </div>
+                <div>
+                    <a href="index.html#frutas_target">Frutas</a>
+                </div>
+                <div>
+                    <a href="index.html#peixes_target">Peixes e Derivados</a>
+                </div>
+                <div>
+                    <a href="index.html#formulario"><span class="fa-solid fa-square-phone-flip fa-md"></span>Fale
+                        conosco</a>
+                </div>
+            </div>
+        </nav>
+        <div class="nav-toggle" onclick="btnNav_click()"><span class="fa-solid fa-bars fa-lg fa-fade"
+                style="--fa-animation-duration: 1.2s;"></span></div>
+    </div>
+    <section id="back_logo">
+        <img src="./img/logoA.png">
+        <p>Supermercado<span>A</span></p>
+    </section>
+
+    <span id="content_starts"></span>
+    <main class="container">
+        <span id="carnes_target"></span>
+        <p class="categoria">Carnes</p>
+        <section id="carnes" class="divisoria" data-scroll-anime="left_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img1.png">
+                </figure>
+                <p class="desc">Picanha Friboi tradicional peça a vácuo kg</p>
+                <p class="desc">R$57,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img2.png">
+                </figure>
+                <p class="desc">Fraldinha Friboi peça kg</p>
+                <p class="desc">R$36,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img3.png">
+                </figure>
+                <p class="desc">Contrafilé pedaço kg</p>
+                <p class="desc">R$36,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img4.png">
+                </figure>
+                <p class="desc">Paleta de cordeiro Do Chef congelada peça kg</p>
+                <p class="desc">R$45,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img5.png">
+                </figure>
+                <p class="desc">Cupim Friboi pedaço kg</p>
+                <p class="desc">R$36,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img6.png">
+                </figure>
+                <p class="desc">Picanha suína Pamplona temperada resfriada peça kg</p>
+                <p class="desc">R$26,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img7.png">
+                </figure>
+                <p class="desc">Costela suína Perdigão a granel kg</p>
+                <p class="desc">R$21,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img8.png">
+                </figure>
+                <p class="desc">Bisteca suína Sadia a granel kg</p>
+                <p class="desc">R$17,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img9.png">
+                </figure>
+                <p class="desc">Coxinha da asa de frango a granel kg</p>
+                <p class="desc">R$14,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img10.png">
+                </figure>
+                <p class="desc">Linguiça toscana Seara a granel kg</p>
+                <p class="desc">R$15,29</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img11.png">
+                </figure>
+                <p class="desc">Linguiça calabresa defumada Seara a granel kg</p>
+                <p class="desc">R$18,59</p>
+            </div>
+        </section>
+
+        <!-- Outras Categorias(Categorias únicas) -->
+        <span id="margarinas_target"></span>
+        <p class="categoria">Margarinas</p>
+        <section id="margarinas" class="divisoria" data-scroll-anime="right_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img12.png">
+                </figure>
+                <p class="desc">Margarina Qualy tradicional 500 g</p>
+                <p class="desc">R$4,99</p>
+            </div>
+        </section>
+        <span id="graos_target"></span>
+        <p class="categoria">Grãos</p>
+        <section id="graos" class="divisoria" data-scroll-anime="left_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img13.png">
+                </figure>
+                <p class="desc">Arroz branco Blue Ville tipo 1 5 kg</p>
+                <p class="desc">R$22,98</p>
+            </div>
+        </section>
+        <span id="temperos_target"></span>
+        <p class="categoria">Temperos</p>
+        <section id="temperos" class="divisoria" data-scroll-anime="right_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img14.png">
+                </figure>
+                <p class="desc">Azeite de oliva Gallo clássico extra virgem vidro 500 ml</p>
+                <p class="desc">R$19,99</p>
+            </div>
+        </section>
+
+        <!-- Categoria Doces -->
+        <span id="doces_target"></span>
+        <p class="categoria">Doces</p>
+        <section id="doces" class="divisoria" data-scroll-anime="left_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img15.png">
+                </figure>
+                <p class="desc">Leite condensado Moça semidesnatado TP 395 g</p>
+                <p class="desc">R$4,69</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img16.png">
+                </figure>
+                <p class="desc">Chocolate em tablete Lacta sabores 90 g</p>
+                <p class="desc">R$4,19</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img17.png">
+                </figure>
+                <p class="desc">Chocolate Lindt Lindor Milk ou Swiss Classic 100 g</p>
+                <p class="desc">R$19,90</p>
+            </div>
+        </section>
+
+        <!-- Categoria Bebidas -->
+        <span id="bebidas_target"></span>
+        <p class="categoria">Bebidas</p>
+        <section id="bebidas" class="divisoria" data-scroll-anime="right_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img18.png">
+                </figure>
+                <p class="desc">Refrigerante H2OH! sabores pet 1,5 L</p>
+                <p class="desc">R$4,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img19.png">
+                </figure>
+                <p class="desc">Cerveja Bohemia puro malte lata 350 ml</p>
+                <p class="desc">R$2,49</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img20.png">
+                </figure>
+                <p class="desc">Cerveja Bohemia puro malte lata 350 ml</p>
+                <p class="desc">R$46,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img21.png">
+                </figure>
+                <p class="desc">Vinho Espumante Salton moscatel branco 750 ml</p>
+                <p class="desc">R$29,90</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img22.png">
+                </figure>
+                <p class="desc">Vinho Salton Intenso merlot tinto 750 ml</p>
+                <p class="desc">R$31,90</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img23.png">
+                </figure>
+                <p class="desc">Vinho Frisante Mioranza suave rosé 750 ml</p>
+                <p class="desc">R$19,90</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img24.png">
+                </figure>
+                <p class="desc">Vinho Frances Bois Mirail Rouge tinto 750 ml</p>
+                <p class="desc">R$31,90</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img25.png">
+                </figure>
+                <p class="desc">Vinho Chileno Tres Toros cabernet sauvignon tinto 750 ml</p>
+                <p class="desc">R$29,90</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img26.png">
+                </figure>
+                <p class="desc">Vinho Português Terra Mãe tinto 750 ml</p>
+                <p class="desc">R$30,90</p>
+            </div>
+        </section>
+
+        <!-- Categoria Higiene e Limpeza -->
+        <span id="higiene_target"></span>
+        <p class="categoria">Higiene e Limpeza</p>
+        <section id="higiene" class="divisoria" data-scroll-anime="left_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img27.png">
+                </figure>
+                <p class="desc">Kit enxaguante bucal Colgate Plax Total 12 500 ml + Plax 250 ml</p>
+                <p class="desc">R$19,69</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img28.png">
+                </figure>
+                <p class="desc">Kit toalha umedecida Johnson’s c/ 48 unidades Leve 4 Pague 3</p>
+                <p class="desc">R$32,89</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img29.png">
+                </figure>
+                <p class="desc">Lava roupas concentrado Ariel fragrâncias 1,2 L</p>
+                <p class="desc">R$17,90</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img30.png">
+                </figure>
+                <p class="desc">Limpador Veja Gold multiuso original 500 ml com 10% de desconto</p>
+                <p class="desc">R$2,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img31.png">
+                </figure>
+                <p class="desc">Papel higiênico Neve folha dupla ou tripla 20/30 metros com 4 unidades</p>
+                <p class="desc">R$6,99</p>
+            </div>
+        </section>
+
+        <!-- Categoria Verduras e Legumes-->
+        <span id="verduras_target"></span>
+
+        <p class="categoria">Verduras e Legumes</p>
+        <section id="verdura" class="divisoria" data-scroll-anime="right_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img32.png">
+                </figure>
+                <p class="desc">Abobrinha italiana kg</p>
+                <p class="desc">R$1,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img33.png">
+                </figure>
+                <p class="desc">Alho Roxo cada 100g</p>
+                <p class="desc">R$2,89</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img34.png">
+                </figure>
+                <p class="desc">Batata doce rosada kg</p>
+                <p class="desc">R$1,89</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img35.png">
+                </figure>
+                <p class="desc">Berinjela kg</p>
+                <p class="desc">R$3,89</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img36.png">
+                </figure>
+                <p class="desc">Cebola kg</p>
+                <p class="desc">R$4,49</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img37.png">
+                </figure>
+                <p class="desc">Cenoura kg</p>
+                <p class="desc">R$2,29</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img42.png">
+                </figure>
+                <p class="desc">Mandioquinha kg</p>
+                <p class="desc">R$6,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img44.png">
+                </figure>
+                <p class="desc">Pepino japonês kg</p>
+                <p class="desc">R$2,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img45.png">
+                </figure>
+                <p class="desc">Pimentão verde kg</p>
+                <p class="desc">R$3,79</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img46.png">
+                </figure>
+                <p class="desc">Tomate carmem kg</p>
+                <p class="desc">R$3,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img47.png">
+                </figure>
+                <p class="desc">Tomate Grape Mel Trebeschi 180 g</p>
+                <p class="desc">R$2,39</p>
+            </div>
+        </section>
+
+        <!-- Categorias Frutas -->
+        <span id="frutas_target"></span>
+        <p class="categoria">Frutas</p>
+        <section id="frutas" class="divisoria" data-scroll-anime="left_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img57.png">
+                </figure>
+                <p class="desc">Manga tommy kg</p>
+                <p class="desc">R$3,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img58.png">
+                </figure>
+                <p class="desc">Maracujá azedo kg</p>
+                <p class="desc">R$5,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img59.png">
+                </figure>
+                <p class="desc">Mexerica ponkan kg</p>
+                <p class="desc">R$2,89</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img60.png">
+                </figure>
+                <p class="desc">Pera williams kg</p>
+                <p class="desc">R$7,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img61.png">
+                </figure>
+                <p class="desc">Uva branca bandeja 500 g</p>
+                <p class="desc">R$5,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img57.png">
+                </figure>
+                <p class="desc">Uva preta bandeja 500 g</p>
+                <p class="desc">R$6,49</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img49.png">
+                </figure>
+                <p class="desc">Abacate kg</p>
+                <p class="desc">R$4,59</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img50.png">
+                </figure>
+                <p class="desc">Caqui fuyu kg</p>
+                <p class="desc">R$4,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img51.png">
+                </figure>
+                <p class="desc">Goiaba vermelha kg</p>
+                <p class="desc">R$3,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img52.png">
+                </figure>
+                <p class="desc">Laranja pera kg</p>
+                <p class="desc">R$2,79</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img53.png">
+                </figure>
+                <p class="desc">Limão taiti kg</p>
+                <p class="desc">R$1,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img54.png">
+                </figure>
+                <p class="desc">Maçã Fuji kg</p>
+                <p class="desc">R$4,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img55.png">
+                </figure>
+                <p class="desc">Maçã Senninha pacote 1kg</p>
+                <p class="desc">R$4,49</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img56.png">
+                </figure>
+                <p class="desc">Mamão papaya unid.</p>
+                <p class="desc">R$2,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img48.png">
+                </figure>
+                <p class="desc">Abacaxi pérola unid.</p>
+                <p class="desc">R$5,39</p>
+            </div>
+        </section>
+
+        <!-- Categoria Peixes e Derivados -->
+        <span id="peixes_target"></span>
+        <p class="categoria">Peixes e Derivados</p>
+        <section id="peixes" class="divisoria" data-scroll-anime="right_to">
+            <div class="product">
+                <figure>
+                    <img src="./img/img38.png">
+                </figure>
+                <p class="desc">Tilápia inteira fresca kg</p>
+                <p class="desc">R$17,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img39.png">
+                </figure>
+                <p class="desc">Tambaqui de cativeiro inteiro fresco kg</p>
+                <p class="desc">R$21,79</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img40.png">
+                </figure>
+                <p class="desc">Pintado de cativeiro inteiro fresco kg</p>
+                <p class="desc">R$28,99</p>
+            </div>
+            <div class="product">
+                <figure>
+                    <img src="./img/img41.png">
+                </figure>
+                </figure>
+                <p class="desc">Camarão Oceani descascado cozido congelado 400 g</p>
+                <p class="desc">R$39,99</p>
+            </div>
+        </section>
+        <button class="back_to_top_toggle" onclick="btnTop_click()"><span
+                class="fa-solid fa-arrow-up-long fa-beat-fade fa-lg"></span></button>
+    </main>
+
+
+
+    <section id="formulario">
+        <form id="form" action="./index.html" method="GET">
+            <fieldset>
+                <legend>Contato</legend>
+                <input type="text" placeholder="Nome" tabindex="0" data-min-length="2" class="required">
+                <input type="email" placeholder="E-Mail" tabindex="0" class="form_email required" data-min-length="6">
+                <input type="text" placeholder="Assunto" tabindex="0" class="required">
+                <textarea placeholder="Mensagem" tabindex="0" class="required"></textarea>
+                <button class="btn_submit" type="submit"><span class="fa solid fa-paper-plane"></span>Enviar</button>
+            </fieldset>
+        </form>
+
+    </section>
+
+    <footer>
+        <section class="nomes">
+            <p>Nome: Juan Carlos Barbosa de Jesus - RGM: 29995370</p>
+            <p>Nome: Gabriel Bomfim Silva - RGM: 30246474</p>
+            <p>Nome: Guilherme Rocha de Souza - RGM: 29523737</p>
+            <p>Nome: Paulo Henrique - RGM: 28955218</p>
+            <p>Nome: Yago Amancio Ribeiro - RGM: 30083052</p>
+        </section>
+        <section class="social_media">
+            <div>
+                <a href="https://github.com" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-github"></span>
+                </a>
+                <a href="https://reddit.com" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-reddit"></span>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-instagram"></span>
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-youtube"></span>
+                </a>
+            </div>
+            <div>
+                <p>SupermercadoA ©, todos os direitos reservados</p>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/main_scripts.js"></script>
+    <!--<script src="./assets/vanilla-validator-master/dist/vanilla-validator.concat.js"></script>
+    <script>
+        var messages={
+            required:"Campo obrigatório!",
+            email:"Email inválido!",
+            minLength:"A quantidade de caracteres é abaixo do ideal!"
+
+        }, 
+        selectors = {
+            email:"form_email",
+            error:"invalid",
+            messageError:"local_de_erro"
+        },
+        validator_config = {
+            container: "#form",
+            validationBy: "onsubmit",
+            button: ".btn_submit",
+            validateOnFieldChanges: true,
+            messages: messages,
+            selectors: selectors,
+        };
+
+        var validator = new VanillaValidator(validator_config);
+    </script>-->
+</body>
+
+</html>
